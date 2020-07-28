@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+  overflow: hidden;
+}
+.main{
+    width: 280px;
+    height: 530px;
+    
+    margin: 100px auto;
+    background: linear-gradient(145deg, #1b191e, #171519);
+    box-shadow: 5px 5px 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.menu{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .fa-arrow-left, .fa-bars{
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 13px #0b0a0d,
+                -7px -7px 13px #21242b;
+}
+
+.menu h3{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 1em;
+    font-weight: lighter;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 20px auto;
+    background: url(./no.jpg) no-repeat center center / cover;
+    box-shadow: 7px 7px 13px #0b0a0d,
+                -7px -7px 13px #21242b;
+}
+
+.range{
+    padding: 2em;
+}
+#range{
+    -webkit-appearance: none;
+    width: 220px;
+    height: 8px;
+    background-color: #27242b;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: inset 5px 5px 10px #0b0a0d,
+                inset -5px -5px 10px #27242b;
+}
+
+#range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #27242b;
+    border-radius: 50%;
+}
+
+.info h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    text-shadow: 1px 1px 5px black;
+}
+.info p{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    opacity: 0.7;
+    text-shadow: 1px 1px 5px black;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.time p{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.play{
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play .fa-forward, .fa-pause, .fa-backward{
+    padding: 20px 20px;
+    border-radius: 50%;
+
+    box-shadow: 7px 7px 13px #0b0a0d,
+    -7px -7px 13px #21242b;
+
+}
+.play .fa-pause{
+    background: linear-gradient(145deg, #fa5c00,#ff9200);
+    box-shadow:  5px 5px 10px #0b0a0d,
+                 -5px -5px 10px #27242b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
